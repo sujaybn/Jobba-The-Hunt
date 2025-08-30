@@ -43,6 +43,6 @@ This app helps me track my job search pipeline while demonstrating practical ski
 ## Setup
 ```bash
 git clone https://github.com/sujaybn/jobhunt-buddy.git
-cd jobhunt-buddy
+cd jobba-the-hunt
 npm install
 npm run dev
