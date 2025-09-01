@@ -75,9 +75,7 @@ flowchart LR
 ---
 ## Quick Start
 
-[![Node.js](https://img.shields.io/badge/Node.js-18+-green?logo=node.js)](https://nodejs.org/)  
-[![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)](https://nextjs.org/)  
-[![npm](https://img.shields.io/badge/npm-9+-red?logo=npm)](https://www.npmjs.com/)
+[![Node.js](https://img.shields.io/badge/Node.js-18+-green?logo=node.js)](https://nodejs.org/)  [![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)](https://nextjs.org/)  [![npm](https://img.shields.io/badge/npm-9+-red?logo=npm)](https://www.npmjs.com/)
 
 ```bash
 # 1. Clone the repository

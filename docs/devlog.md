@@ -1,5 +1,20 @@
 # Developer Log
 
+## [2025-09-01] (Noon session) : System design and documentation
+
+- **Task:** Define the problem statement and draft initial desgin and document the same with relavent UML diagrams
+- **Actions:**
+  - Laid out a basic problem and feature definition.
+  - Added UML diagrams for architechture, model and userflow.
+  - Updated the design documents with the comprehensive basic system desgin documentation.
+- **Learnings:**
+  - UML diagrams can be easily integrated into markdown docs using **mermaid**.
+  - One of the questions about the ultimate product version of this app is answered **(browser extension)**.
+- **Next steps:**
+  - Define the technical functional and non-functional requirements(NFR).
+  - Due-diligence on risk and challenges.
+  - MVP1 to be finalised.
+  - Perhaps discuss the design with another engineer to see if things are on track. 
 ---
 
 ## [2025-09-01] (Morning session) : Auth route setup and verification
