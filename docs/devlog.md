@@ -2,6 +2,28 @@
 
 ---
 
+## [2025-09-01] (Morning session) : Auth route setup and verification
+
+- **Task:** Set up NextAuth API route and confirm routing works.
+- **Actions:**
+  - Created folder `src/app/api/auth/[...nextauth]/`.
+  - Added `route.ts` file and wired it with NextAuth handler.
+  - Fixed zsh globbing issue when moving `[...nextauth]` folder (`mv` with quotes).
+  - Restarted dev server and validated routes.
+- **Verification:**
+  - `/api/auth/signin` loads the sign-in flow.
+  - `/api/auth/session` returns expected JSON response.
+- **Learnings:**
+  - Next.js 13+ App Router uses **nested dynamic routes** like `[...nextauth]`.
+  - zsh interprets `[` as a glob, must use quotes or escapes.
+  - Confirmed API route resolution works before deeper Prisma/DB integration.
+- **Next steps:**
+  - Take a step back to document **system design** (UML diagrams, data flow).
+  - Define auth + application tracking entities.
+  - Decide how MVP CRUD + auth integration should be structured.
+
+---
+
 ## 2025-08-29 — Project Kickoff
 
 ### What I did
