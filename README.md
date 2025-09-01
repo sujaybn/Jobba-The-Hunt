@@ -72,12 +72,24 @@ flowchart LR
     API --> DB["PostgreSQL"]
     API --> Auth["NextAuth.js"]
 ```
-## Setup
+---
+## Quick Start
 
-```
+[![Node.js](https://img.shields.io/badge/Node.js-18+-green?logo=node.js)](https://nodejs.org/)  
+[![Next.js](https://img.shields.io/badge/Next.js-15-black?logo=next.js)](https://nextjs.org/)  
+[![npm](https://img.shields.io/badge/npm-9+-red?logo=npm)](https://www.npmjs.com/)
+
+```bash
+# 1. Clone the repository
 git clone https://github.com/sujaybn/jobhunt-buddy.git
+
+# 2. Move into the project directory\
 cd jobba-the-hunt
+
+# 3. Install dependencies
 npm install
+
+# 4. Start the development server
 npm run dev
 ```
 ----
