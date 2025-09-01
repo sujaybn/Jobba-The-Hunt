@@ -1,17 +1,41 @@
 # Jobba-The-Hunt
-From backend Sith to frontend Jedi
+*From backend Sith to frontend Jedi* ✨  
 
 A full stack web app to track and manage job applications.  
 Built with **Next.js, PostgreSQL, and modern DevOps practices**.  
 
 ---
 
+## Table of Contents
+- [Overview](#overview)
+- [Project Docs](#-project-docs)
+- [Tech Stack](#tech-stack)
+- [MVP Features](#mvp-features)
+- [Future Enhancements](#future-enhancements)
+- [Why This Project?](#why-this-project)
+- [Architecture Overview](#architecture-overview)
+- [Setup](#setup)
+
+---
+
+## Overview
+Jobba-The-Hunt helps track your job search pipeline with statuses, notes, and analytics—while showcasing full-stack + DevOps skills in action.
+
+---
+
+## Project Docs
+- [![Design Doc](https://img.shields.io/badge/Docs-Design%20Document-blue)](docs/design.md) → Architecture, schema, system design  
+- [![Backlog](https://img.shields.io/badge/Docs-Backlog-blue)](docs/backlog.md) → Task planning & feature roadmap  
+- [![Devlog](https://img.shields.io/badge/Docs-Devlog-blue)](docs/devlog.md) → Daily notes, decisions, learnings  
+
+---
+
 ## Tech Stack
-- **Frontend:** Next.js (App Router), React, TailwindCSS
-- **Backend:** Next.js API Routes (Node.js)
-- **Database:** PostgreSQL (via Prisma ORM)
-- **Authentication:** NextAuth.js
-- **CI/CD & Hosting:** GitHub Actions, Docker, Vercel
+- **Frontend:** Next.js (App Router), React, TailwindCSS  
+- **Backend:** Next.js API Routes (Node.js)  
+- **Database:** PostgreSQL (via Prisma ORM)  
+- **Authentication:** NextAuth.js  
+- **CI/CD & Hosting:** GitHub Actions, Docker, Vercel  
 
 ---
 
@@ -31,8 +55,8 @@ Built with **Next.js, PostgreSQL, and modern DevOps practices**.
 
 ---
 
-## Purpose
-This app helps me track my job search pipeline while demonstrating practical skills in:
+## Why This Project?
+This app solves the chaos of job tracking with a clean workflow while demonstrating:
 - **Modern full stack development (React + Next.js)**  
 - **Backend APIs and database integration (PostgreSQL + Prisma)**  
 - **Authentication and user management**  
@@ -40,9 +64,20 @@ This app helps me track my job search pipeline while demonstrating practical ski
 
 ---
 
+## Architecture Overview
+```mermaid
+flowchart LR
+    User((User)) --> WebUI["Next.js Frontend"]
+    WebUI --> API["API Routes - Node.js + Prisma"]
+    API --> DB["PostgreSQL"]
+    API --> Auth["NextAuth.js"]
+```
 ## Setup
-```bash
+
+```
 git clone https://github.com/sujaybn/jobhunt-buddy.git
 cd jobba-the-hunt
 npm install
 npm run dev
+```
+----
